@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>三画像 ACO 对比结果</title>
+  <style>
+    body { font-family: "Microsoft YaHei", "SimHei", sans-serif; margin: 24px; background: #f5f5f5; }
+    h1 { color: #2c3e50; }
+    h2 { color: #34495e; font-size: 18px; margin-top: 28px; margin-bottom: 12px; }
+    .note { color: #7f8c8d; font-size: 14px; margin-bottom: 16px; }
+    table { border-collapse: collapse; background: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 8px; overflow: hidden; }
+    th, td { padding: 12px 16px; text-align: left; border-bottom: 1px solid #ecf0f1; }
+    th { background: #3498db; color: white; font-weight: 600; }
+    tr:hover { background: #f8f9fa; }
+    .day-table th { background: #27ae60; }
+    td.spots { max-width: 480px; word-break: break-all; }
+    .itinerary-block { margin-bottom: 32px; }
+    .no-data { color: #95a5a6; }
+    .path { margin-top: 24px; }
+    .path a { color: #2980b9; }
+  </style>
+</head>
+<body>
+  <h1>三画像 ACO 路线对比结果</h1>
+  <p class="note">数据来源: profile_comparison_results.json（由 run_profile_comparison.py 生成）</p>
+  <table>
+    <thead>
+      <tr>
+        <th>画像</th>
+        <th>总时间(h)</th>
+        <th>总成本(元)</th>
+        <th>满意度</th>
+        <th>路线点数</th>
+        <th>估算天数</th>
+        <th>总距离(km)</th>
+        <th>紧凑度</th>
+        <th>实际红占比</th>
+        <th>红绿匹配度</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>家庭游客</td><td>6.05</td><td>144.5</td><td>4.36</td><td>6</td><td>1</td><td>31.5</td><td>—</td><td>0.0%</td><td>0.7</td></tr><tr><td>研学游客</td><td>5.58</td><td>102.6</td><td>4.72</td><td>6</td><td>1</td><td>17.55</td><td>—</td><td>0.0%</td><td>0.4</td></tr><tr><td>普通游客</td><td>6.55</td><td>109.1</td><td>4.98</td><td>7</td><td>1</td><td>16.37</td><td>—</td><td>0.0%</td><td>0.8</td></tr>
+    </tbody>
+  </table>
+  <h2>每日行程表与行程景点</h2>
+  <div class="itinerary-block"><h2>家庭游客 · 每日行程表与行程景点</h2><table class="day-table"><thead><tr><th>日期</th><th>当日时间(h)</th><th>当日费用(元)</th><th>行程景点（按顺序）</th></tr></thead><tbody><tr><td>第1天</td><td>7.05</td><td>144.5</td><td class="spots">黄花岗公园-奏乐台 → 何氏大宗祠 → 越秀公园-永宁亭 → 宏城公园-陈启沅雕像 → 李氏大宗祠 → 长隆飞鸟乐园-钓鳄服务</td></tr></tbody></table></div><div class="itinerary-block"><h2>研学游客 · 每日行程表与行程景点</h2><table class="day-table"><thead><tr><th>日期</th><th>当日时间(h)</th><th>当日费用(元)</th><th>行程景点（按顺序）</th></tr></thead><tbody><tr><td>第1天</td><td>6.58</td><td>102.64</td><td class="spots">黄花岗公园-奏乐台 → 越秀公园-永宁亭 → 清凉亭 → 海心桥 → 广州起义烈士陵园-叶剑英同志纪念碑 → 十九路军淞沪抗日阵亡将士陵园</td></tr></tbody></table></div><div class="itinerary-block"><h2>普通游客 · 每日行程表与行程景点</h2><table class="day-table"><thead><tr><th>日期</th><th>当日时间(h)</th><th>当日费用(元)</th><th>行程景点（按顺序）</th></tr></thead><tbody><tr><td>第1天</td><td>7.55</td><td>109.11</td><td class="spots">黄花岗公园-奏乐台 → 光仕姚公祠 → 珠江夜游 → 滨江街科普绿化广场 → 东里社区文化广场(暂停开放) → 林则徐纪念园 → 华南农业大学丁颖纪念馆</td></tr></tbody></table></div>
+  <p class="path">路线地图: <a href="red_spots_map_family.html">家庭</a> | <a href="red_spots_map_study.html">研学</a> | <a href="red_spots_map_normal.html">普通</a></p>
+</body>
+</html>

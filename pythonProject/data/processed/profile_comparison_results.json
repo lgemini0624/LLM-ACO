@@ -1,0 +1,165 @@
+{
+  "family": {
+    "total_time_h": 6.049956775207704,
+    "total_cost_yuan": 144.49610976869343,
+    "total_satisfaction": 4.36,
+    "n_days": 1,
+    "path_length": 6,
+    "path_ids": [
+      "0010bcb3-f7cb-309d-9863-ab892795e528",
+      "05cccda1-d873-30fe-a0b6-52935d049a95",
+      "07108fc7-ab17-378e-8c23-81daafe0987a",
+      "03888d77-b16a-3773-84a2-12504fc325e7",
+      "03076105-83ef-345e-adf3-2ba014e28f68",
+      "023a9765-3508-39d3-91e9-c706f8f7313d"
+    ],
+    "path_names": [
+      "黄花岗公园-奏乐台",
+      "何氏大宗祠",
+      "越秀公园-永宁亭",
+      "宏城公园-陈启沅雕像",
+      "李氏大宗祠",
+      "长隆飞鸟乐园-钓鳄服务"
+    ],
+    "daily_itinerary": [
+      {
+        "day": 1,
+        "path_ids": [
+          "0010bcb3-f7cb-309d-9863-ab892795e528",
+          "05cccda1-d873-30fe-a0b6-52935d049a95",
+          "07108fc7-ab17-378e-8c23-81daafe0987a",
+          "03888d77-b16a-3773-84a2-12504fc325e7",
+          "03076105-83ef-345e-adf3-2ba014e28f68",
+          "023a9765-3508-39d3-91e9-c706f8f7313d"
+        ],
+        "path_names": [
+          "黄花岗公园-奏乐台",
+          "何氏大宗祠",
+          "越秀公园-永宁亭",
+          "宏城公园-陈启沅雕像",
+          "李氏大宗祠",
+          "长隆飞鸟乐园-钓鳄服务"
+        ],
+        "time_h": 7.05,
+        "cost_yuan": 144.5
+      }
+    ],
+    "evaluation": {
+      "compactness": null,
+      "rhythm_std": 0.0,
+      "red_match": 0.7,
+      "actual_red_ratio": 0.0,
+      "total_distance_km": 31.49870325623114
+    }
+  },
+  "study": {
+    "total_time_h": 5.58492152097102,
+    "total_cost_yuan": 102.64293688739181,
+    "total_satisfaction": 4.720000000000001,
+    "n_days": 1,
+    "path_length": 6,
+    "path_ids": [
+      "0010bcb3-f7cb-309d-9863-ab892795e528",
+      "07108fc7-ab17-378e-8c23-81daafe0987a",
+      "06e3a712-27f3-361e-828b-deb615a51738",
+      "06295a9b-39a3-364e-b703-aa55f4de4201",
+      "0066e7c6-0db5-3fd5-91d1-28a7b67218c7",
+      "06af60fd-6805-3f8e-8da0-01cac28b9084"
+    ],
+    "path_names": [
+      "黄花岗公园-奏乐台",
+      "越秀公园-永宁亭",
+      "清凉亭",
+      "海心桥",
+      "广州起义烈士陵园-叶剑英同志纪念碑",
+      "十九路军淞沪抗日阵亡将士陵园"
+    ],
+    "daily_itinerary": [
+      {
+        "day": 1,
+        "path_ids": [
+          "0010bcb3-f7cb-309d-9863-ab892795e528",
+          "07108fc7-ab17-378e-8c23-81daafe0987a",
+          "06e3a712-27f3-361e-828b-deb615a51738",
+          "06295a9b-39a3-364e-b703-aa55f4de4201",
+          "0066e7c6-0db5-3fd5-91d1-28a7b67218c7",
+          "06af60fd-6805-3f8e-8da0-01cac28b9084"
+        ],
+        "path_names": [
+          "黄花岗公园-奏乐台",
+          "越秀公园-永宁亭",
+          "清凉亭",
+          "海心桥",
+          "广州起义烈士陵园-叶剑英同志纪念碑",
+          "十九路军淞沪抗日阵亡将士陵园"
+        ],
+        "time_h": 6.58,
+        "cost_yuan": 102.64
+      }
+    ],
+    "evaluation": {
+      "compactness": null,
+      "rhythm_std": 0.0,
+      "red_match": 0.4,
+      "actual_red_ratio": 0.0,
+      "total_distance_km": 17.5476456291306
+    }
+  },
+  "normal": {
+    "total_time_h": 6.545628857688857,
+    "total_cost_yuan": 109.10659719199712,
+    "total_satisfaction": 4.9799999999999995,
+    "n_days": 1,
+    "path_length": 7,
+    "path_ids": [
+      "0010bcb3-f7cb-309d-9863-ab892795e528",
+      "04b1809d-e950-3413-a093-7eccbc3d34a1",
+      "04e189b3-6072-32be-9ba7-38d1d9e5c33a",
+      "05cd3c76-accb-312a-995e-25b06cdc3559",
+      "00bd99e3-5d20-3d9b-8c4c-f0e8d1a45b67",
+      "0721dc8c-2eeb-3117-ae3a-1d98854e18f0",
+      "01cdcd04-3285-3c8e-b18b-5dba9c4d6fa9"
+    ],
+    "path_names": [
+      "黄花岗公园-奏乐台",
+      "光仕姚公祠",
+      "珠江夜游",
+      "滨江街科普绿化广场",
+      "东里社区文化广场(暂停开放)",
+      "林则徐纪念园",
+      "华南农业大学丁颖纪念馆"
+    ],
+    "daily_itinerary": [
+      {
+        "day": 1,
+        "path_ids": [
+          "0010bcb3-f7cb-309d-9863-ab892795e528",
+          "04b1809d-e950-3413-a093-7eccbc3d34a1",
+          "04e189b3-6072-32be-9ba7-38d1d9e5c33a",
+          "05cd3c76-accb-312a-995e-25b06cdc3559",
+          "00bd99e3-5d20-3d9b-8c4c-f0e8d1a45b67",
+          "0721dc8c-2eeb-3117-ae3a-1d98854e18f0",
+          "01cdcd04-3285-3c8e-b18b-5dba9c4d6fa9"
+        ],
+        "path_names": [
+          "黄花岗公园-奏乐台",
+          "光仕姚公祠",
+          "珠江夜游",
+          "滨江街科普绿化广场",
+          "东里社区文化广场(暂停开放)",
+          "林则徐纪念园",
+          "华南农业大学丁颖纪念馆"
+        ],
+        "time_h": 7.55,
+        "cost_yuan": 109.11
+      }
+    ],
+    "evaluation": {
+      "compactness": null,
+      "rhythm_std": 0.0,
+      "red_match": 0.8,
+      "actual_red_ratio": 0.0,
+      "total_distance_km": 16.368865730665703
+    }
+  }
+}
